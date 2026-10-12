@@ -1,0 +1,15 @@
+.style-heading{
+    text-decoration:underline;
+    color:darkred;
+    text-align:center;
+    font-size:larger;
+    vertical-align:baseline;
+    text-transform:uppercase;
+    line-height:24px;
+}
+
+span{
+    line-height:24px;
+    text-align:justify;
+    font-size:smaller;
+}
