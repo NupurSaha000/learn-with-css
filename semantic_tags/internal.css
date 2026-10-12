@@ -15,7 +15,6 @@ span{
 }
 .no-decoration{
     text-decoration: none;
-    text-align: center;
 }
 
 .container {
@@ -26,4 +25,13 @@ span{
 
 .center-text {
   text-align: center;
+}
+
+button {
+    background-color:greenyellow;
+    color:black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
