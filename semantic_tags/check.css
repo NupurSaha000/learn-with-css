@@ -52,3 +52,13 @@ div+p{
     background-color:lawngreen;
 }
 
+.container {
+    height: 100px;
+    line-height: 1000px;
+    border: 1px solid #ccc;
+}
+
+.center-text {
+  text-align: center;
+}
+
