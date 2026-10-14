@@ -1,9 +1,9 @@
 .style-heading{
-    text-decoration:underline;
+    /* text-decoration:underline; */
     color:darkred;
     text-align:center;
     font-size:larger;
-    vertical-align:baseline;
+    /* vertical-align:baseline; */
     text-transform:uppercase;
     line-height:24px;
 }
@@ -19,12 +19,13 @@ span{
 
 .container {
     height: 100px;
-    line-height: 1000px;
+    line-height: 100px;
     border: 1px solid #ccc;
 }
 
 .center-text {
-  text-align: center;
+   font-family: Arial, sans-serif;
+   text-align: center;
 }
 
 button {
@@ -34,4 +35,32 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    justify-content:center;
+    display:block;
+    margin: 0 auto;
 }
+
+
+.style-heading {
+    font-family: "Splash", cursive;
+    font-weight: 400;
+    text-align: center;
+    font-size: 40px;
+    background-color: yellow;
+    color: darkred;
+    text-align: center;
+    padding: 10px;
+}
+
+.center-text {
+    font-family: "Splash", cursive;
+}
+
+.center-text {
+    font-family: Arial, sans-serif !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    text-align: center;
+}
+
+
