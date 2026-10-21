@@ -2,10 +2,10 @@
     background-color: darkorchid;
     font-size: 30px;
     display: flex; 
-    flex-direction: row;
+    flex-direction:column;
     flex-wrap: wrap; 
     justify-content: flex-start;
-    align-items: center;
+    align-items:flex-start;
     gap: 20px;
     width: 100%;
 }
