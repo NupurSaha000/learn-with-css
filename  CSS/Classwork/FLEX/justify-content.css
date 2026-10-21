@@ -1,18 +1,14 @@
 .container {
     background-color: darkorchid;
     font-size: 30px;
-    display: flex; 
-    flex-direction:column;
-    flex-wrap: wrap; 
-    justify-content: flex-start;
-    align-items:flex-start;
+    display: grid; 
+    grid-template-columns: 100px 100px; 
+    grid-auto-rows: 100px; 
     gap: 20px;
-    width: 100%;
 }
 
 .container div {
     background-color: chartreuse;
     width: 100px;
     height: 100px;
-    flex-shrink: 0; 
 }
